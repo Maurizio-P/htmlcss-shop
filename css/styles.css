@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+/* tag */
 header > h1 {
     padding: 10px 15px;
     border-bottom: 1px solid grey;
@@ -21,6 +21,7 @@ header > h1 {
     border-right: 1px solid grey;
 }
 
+/* classi */
 
 .prodotto {
     display: inline-block;

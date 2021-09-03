@@ -9,10 +9,98 @@ header > h1 {
     border-bottom: 1px solid grey;
 }
 
+.container-prodotti {
+    margin: 15px 0;
+}
+
 .container {
     width: 80%;
     margin: 0 auto;
     padding: 10px 15px;
     border-left: 1px solid grey;
     border-right: 1px solid grey;
+}
+
+
+.prodotto {
+    display: inline-block;
+    position: relative;
+    margin: 10px 0;
+    width: calc(100% / 3 - 3px);
+}
+
+
+.prodotto img {
+    max-width: 100%;
+}
+
+div .over {
+    display: none;
+}
+
+.prodotto-tipo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.prodotto-prezzo .prezzo-sconto {
+    color: red;
+    font-weight: bold;
+}
+
+.prodotto-prezzo .prezzo-pieno {
+    text-decoration: line-through;
+}
+
+.sconto-percentuale {
+    padding: 5px;
+    background-color: red;
+    color: white;
+    position: absolute;
+    bottom: 85px;
+}
+
+.eco {
+    padding: 5px;
+    background-color: green;
+    color: white;
+    position: absolute;    
+    bottom: 85px;
+    margin-left: 50px;
+}
+
+.heart {
+    font-size: 40px;
+    text-align: center;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 30px;
+    right: 0;
+    background-color: white;
+}
+
+.black-heart {
+    font-size: 40px;
+    text-align: center;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 30px;
+    right: 0;
+    background-color: white;
+    display: none;
+}
+
+.immagine-carta:hover .over {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.hearts:hover .black-heart {
+    display: block;
 }
